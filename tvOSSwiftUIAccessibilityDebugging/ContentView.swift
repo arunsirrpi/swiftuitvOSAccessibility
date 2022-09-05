@@ -68,18 +68,22 @@ struct ABCLiveStreamView: View {
     var body: some View {
         HStack(alignment: .top, spacing: 20) {
             MediaInfoStack()
+                .accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 10) {
                 Spacer()
                 if (isOnAir) {
                     Text("is ON Air")
                         .font(.caption)
                         .bold()
+                        .accessibilityHidden(true)
                 }
                 Text(primaryText)
                     .font(.title)
+                    .accessibilityHidden(true)
                 Spacer()
             }
         }
+        .accessibilityLabel(primaryText)
         .accessibilityElement(children: .combine)
         .focusable(true) { newstate in isFocused = newstate}
         .scaleEffect(isFocused ? 1.0 : 0.5)
