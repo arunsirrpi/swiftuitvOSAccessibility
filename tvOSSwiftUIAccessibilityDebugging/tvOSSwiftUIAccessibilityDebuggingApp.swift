@@ -11,7 +11,7 @@ import SwiftUI
 struct tvOSSwiftUIAccessibilityDebuggingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(liveStreams: Mock.liveAirContent)
         }
     }
 }
