@@ -84,6 +84,7 @@ struct ABCLiveStreamView: View {
             }
         }
         .accessibilityLabel(primaryText)
+        .accessibilityAddTraits([.isButton])
         .accessibilityElement(children: .combine)
         .focusable(true) { newstate in isFocused = newstate}
         .scaleEffect(isFocused ? 1.0 : 0.5)
