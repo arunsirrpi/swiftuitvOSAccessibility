@@ -11,7 +11,8 @@ import SwiftUI
 struct tvOSSwiftUIAccessibilityDebuggingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(liveStreams: Mock.liveAirContent)
+            // UseListView(liveStreams: Mock.liveAirContent)
+            UseLazyVGridView(liveStreams: Mock.liveAirContent)
         }
     }
 }

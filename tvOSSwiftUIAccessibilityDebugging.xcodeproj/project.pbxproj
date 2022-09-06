@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF0D372B28C5A8FC004AC640 /* tvOSSwiftUIAccessibilityDebuggingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0D372A28C5A8FC004AC640 /* tvOSSwiftUIAccessibilityDebuggingApp.swift */; };
-		BF0D372D28C5A8FC004AC640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0D372C28C5A8FC004AC640 /* ContentView.swift */; };
+		BF0D372D28C5A8FC004AC640 /* UseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0D372C28C5A8FC004AC640 /* UseListView.swift */; };
 		BF0D372F28C5A8FD004AC640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0D372E28C5A8FD004AC640 /* Assets.xcassets */; };
 		BF0D373228C5A8FD004AC640 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0D373128C5A8FD004AC640 /* Preview Assets.xcassets */; };
 		BF0D373C28C5A8FD004AC640 /* tvOSSwiftUIAccessibilityDebuggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0D373B28C5A8FD004AC640 /* tvOSSwiftUIAccessibilityDebuggingTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		BF0D372728C5A8FC004AC640 /* tvOSSwiftUIAccessibilityDebugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSSwiftUIAccessibilityDebugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0D372A28C5A8FC004AC640 /* tvOSSwiftUIAccessibilityDebuggingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSSwiftUIAccessibilityDebuggingApp.swift; sourceTree = "<group>"; };
-		BF0D372C28C5A8FC004AC640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF0D372C28C5A8FC004AC640 /* UseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseListView.swift; sourceTree = "<group>"; };
 		BF0D372E28C5A8FD004AC640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0D373128C5A8FD004AC640 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF0D373728C5A8FD004AC640 /* tvOSSwiftUIAccessibilityDebuggingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSSwiftUIAccessibilityDebuggingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BF0D372A28C5A8FC004AC640 /* tvOSSwiftUIAccessibilityDebuggingApp.swift */,
-				BF0D372C28C5A8FC004AC640 /* ContentView.swift */,
+				BF0D372C28C5A8FC004AC640 /* UseListView.swift */,
 				BF0D372E28C5A8FD004AC640 /* Assets.xcassets */,
 				BF0D373028C5A8FD004AC640 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0D372D28C5A8FC004AC640 /* ContentView.swift in Sources */,
+				BF0D372D28C5A8FC004AC640 /* UseListView.swift in Sources */,
 				BF0D372B28C5A8FC004AC640 /* tvOSSwiftUIAccessibilityDebuggingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
